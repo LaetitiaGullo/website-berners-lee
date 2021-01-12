@@ -1,9 +1,36 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(235, 235, 235);
+    color: #7d7d7d
 }
 
 .TBL {
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+    border-radius: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.TBL h1 {
+    color: rgb(221, 85, 85);
+}
+
+.TBL h2 {
+    font-weight: normal;
+}
+
+.TBL img {
+    border-radius: 50%;
+    border-color: rgb(235, 235, 235);
+    border-style: solid;
+    width: 120px;
+    height: 120px;
 }
 
 .Logo {
