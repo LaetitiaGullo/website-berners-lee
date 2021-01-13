@@ -7,7 +7,7 @@ body {
 
 .TBL {
     background-color: rgb(255, 255, 255);
-    width: 50%;
+    width: 500px;
     height: 400px;
     margin: auto;
     margin-block-end: 20px;
@@ -50,7 +50,7 @@ body {
 .Logo {
     background-color: rgb(255, 255, 255);
     color: rgb(235, 235, 235);
-    width: 50%;
+    width: 500px;
     height: 90px;
     margin: 20px auto 20px auto;
     padding: 50px 25px 50px 25px;
@@ -85,7 +85,7 @@ li {
 
 .Movies {
     background-color: rgb(255, 255, 255);
-    width: 50%;
+    width: 500px;
     height: 650px;
     margin: auto;
     margin-block-end: 20px;
