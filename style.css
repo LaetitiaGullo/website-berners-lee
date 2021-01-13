@@ -1,7 +1,8 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(235, 235, 235);
-    color: #7d7d7d
+    color: #7d7d7d;
+    line-height: 20px;
 }
 
 .TBL {
@@ -9,9 +10,11 @@ body {
     width: 500px;
     height: 400px;
     margin: auto;
-    padding: 15px;
+    margin-block-end: 20px;
+    padding: 25px;
     text-align: center;
     border-radius: 1%;
+    box-shadow: 0 0 5px #7d7d7d4b;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,10 +36,66 @@ body {
     height: 120px;
 }
 
-.Logo {
+.TBL a {
+    border-color: rgb(221, 85, 85);
+    background-color: rgb(221, 85, 85);
+    border-style: solid;
+    border-radius: 5%;
+    padding: 7px;
+    color: rgb(235, 235, 235);
+    font-weight: bold;
+    text-decoration: none;
+}
 
+.Logo {
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 100px;
+    margin: auto;
+    margin-block-end: 20px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 1%;
+    box-shadow: 0 0 5px #7d7d7d4b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Logo a {
+    color: #7d7d7d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .Movies {
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 600px;
+    margin: auto;
+    margin-block-end: 20px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 1%;
+    box-shadow: 0 0 5px #7d7d7d4b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.Movies img {
+    width: 90px;
+    height: 130px;
+    float: left;
+}
+
+.Mov1 p {
+    text-align: justify;
+}
+
+.Mov2 p {
+    text-align: justify;
+}
+
+.Mov3 p {
+    text-align: justify;
 }
