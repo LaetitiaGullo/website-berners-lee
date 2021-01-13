@@ -7,7 +7,7 @@ body {
 
 .TBL {
     background-color: rgb(255, 255, 255);
-    width: 500px;
+    width: 50%;
     height: 400px;
     margin: auto;
     margin-block-end: 20px;
@@ -49,28 +49,44 @@ body {
 
 .Logo {
     background-color: rgb(255, 255, 255);
-    width: 500px;
-    height: 100px;
-    margin: auto;
-    margin-block-end: 20px;
-    padding: 25px;
-    text-align: center;
+    color: rgb(235, 235, 235);
+    width: 50%;
+    height: 90px;
+    margin: 20px auto 20px auto;
+    padding: 50px 25px 50px 25px;
     border-radius: 1%;
     box-shadow: 0 0 5px #7d7d7d4b;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding-right: 40px;
+}
+
+li {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-block;
+
 }
 
 .Logo a {
-    color: #7d7d7d;
+    color: rgb(204, 204, 204);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
 }
+
+.fab {
+    font-size: 25px;
+    height: 30px;
+}
+
 
 .Movies {
     background-color: rgb(255, 255, 255);
-    width: 500px;
-    height: 600px;
+    width: 50%;
+    height: 650px;
     margin: auto;
     margin-block-end: 20px;
     padding: 25px;
@@ -83,19 +99,21 @@ body {
 }
 
 .Movies img {
-    width: 90px;
-    height: 130px;
+    width: 100px;
+    height: 150px;
     float: left;
+    padding-right: 20px;
+    padding-bottom: 30px;
 }
 
-.Mov1 p {
-    text-align: justify;
+.Movies h3 {
+    padding-bottom: 40px;
 }
 
-.Mov2 p {
-    text-align: justify;
+.Movies h4 {
+    text-align: center;
 }
 
-.Mov3 p {
+article {
     text-align: justify;
 }
