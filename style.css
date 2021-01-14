@@ -128,7 +128,7 @@ article {
 
 @media(max-height: 1760px) {  
     #global {
-        height :100%;
-        padding :0px;
+        height: 100%;
+        padding: 0px;
     }
 }
