@@ -119,46 +119,16 @@ article {
     text-align: justify;
 }
 
-@media(max-width: 767px)
-
-{ 
-
- 
-
-#global
-
-{
-
-            width :100% ;
-
-            padding :0px ;
-
+@media(max-width: 869px) {
+    #global {
+        width: 100%;
+        padding: 0%;
+    }
 }
 
- 
-
-#menu-gauche
-
-{
-
-            width :100% ;
-
+@media(max-height: 1760px) {  
+    #global {
+        height :100%;
+        padding :0px;
+    }
 }
-
- 
-
-#contenu
-
-{
-
-            width :100% ;
-
-}
-
- 
-
-#sidebar-droite
-
-{
-
-            width :100% ;
