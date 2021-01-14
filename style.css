@@ -119,16 +119,21 @@ article {
     text-align: justify;
 }
 
-@media(max-width: 869px) {
-    #global {
-        width: 100%;
-        padding: 0%;
-    }
-}
+@media all and (max-height: 1200px) {  
+    /* .TBL {
+        width: 80%;
+        height: 600px;
+        justify-content: space-around;
+    } */
 
-@media(max-height: 1760px) {  
-    #global {
-        height: 100%;
-        padding: 0px;
+    /* main {
+        height: 600px;
+        background-color: blue;
     }
-}
+
+    
+    .TBL {
+        height: 200px;
+    }
+
+    } */
