@@ -119,21 +119,9 @@ article {
     text-align: justify;
 }
 
-@media all and (max-height: 1200px) {  
-    /* .TBL {
+/* @media screen and (max-height: 1200px) {
+    main {
         width: 80%;
-        height: 600px;
-        justify-content: space-around;
-    } */
-
-    /* main {
-        height: 600px;
-        background-color: blue;
-    }
-
-    
-    .TBL {
-        height: 200px;
-    }
-
-    } */
+        height: 100%;
+    }  
+} */
