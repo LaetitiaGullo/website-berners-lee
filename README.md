@@ -10,7 +10,7 @@ Completed project
 Exercise
 
 ### Context :
-Project carried out as part of the "Junior web developer" training [@ BeCode] (https://becode.org/)
+Project carried out as part of the "Junior web developer" training [@ BeCode](https://becode.org/)
 
 ### Languages :
 * HTML
